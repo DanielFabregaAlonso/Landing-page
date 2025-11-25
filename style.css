@@ -369,7 +369,7 @@ footer{
     }
 
     #hero .info { 
-        width: 60%; 
+        width: 40%; 
         font-size: 1.4rem; 
     }
 
@@ -381,11 +381,17 @@ footer{
     }
 }
 @media (max-width: 850px) {
+    .navbar { 
+        display: none;
+    }
     .navbar img {
         height: 35px;
     }
+    
     #hero .info {
-        display: none;
+        width: 40%;
+        left: 8%;
+        font-size: 1.4rem;
     }
     
     #hero2 .info {
@@ -449,10 +455,6 @@ footer{
         width: 100%;
     }
 
-    #hero .info {
-        display: none;
-    }
-
 
     #hero2 .info {
         position: static;
@@ -472,12 +474,13 @@ footer{
         gap: 1rem;
     }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .navbar img {
         height: 28px;
     }
-    #hero .info {
-        display: none;
+    #hero .info{
+        left: 10%;
+        bottom: 13%;
     }
     
     #hero2 .info {
@@ -512,13 +515,14 @@ footer{
         font-size: 14px; 
     }
     #hero .info {
-        display: none;
+        width: 40%;
+        left: 13%;
+        bottom: 16%;
     }
-}
-    @media (max-width: 480px) {
-    #hero .info {
-        display: none;
+    #hero .info > p { 
+        font-size: 0.7rem;
     }
+    
     #hero2 .info {
         background-color: var(--secondary-color);
     }
@@ -530,5 +534,29 @@ footer{
     footer .contact p { 
         width: 90%; 
         font-size: 12px; 
+    }
+  }
+    @media (max-width: 400px) {
+    #hero .info {
+        width: 40%;
+        left: 16%;
+        bottom: 21%;
+    }
+    #hero .info > p { 
+        font-size: 0.5rem;
+    }
+    
+    footer{
+        align-items: center;
+    }
+
+    footer .contact p { 
+        width: 90%; 
+        font-size: 12px; 
+    }
+    footer .list {
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
     }
 }
