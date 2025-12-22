@@ -4,6 +4,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif, 'ABeeZee';
+    border: 2px solid red;
 }
 :root {
     --primary-color: #EEEEEE;
@@ -35,7 +36,8 @@ header {
 }
 
 .logo, .sesion, .cesta, .menu {
-    height: 5vh;
+    height: 6.5vh;
+    margin: 5px;
 }
 .sesion, .cesta, .menu {
     align-items: end;
@@ -104,7 +106,7 @@ header {
     display: grid;
     margin-left: 23%;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 25px;
     padding: 20px;
 }
 #cards .button{
@@ -120,8 +122,8 @@ header {
 .card-1, .card-2, .card-3, .card-4 {
     background-color: var(--tertiary-color);
     width: 50%;
-    gap: 10px;
-    padding: 10px;
+    gap: 15px;
+    padding: 15px;
       
 }
 
@@ -377,11 +379,11 @@ footer{
 }
 @media (max-width: 1100px) {
     .sesion, .cesta, .menu {
-        height: 4vh;
+        height: 5vh;
         padding: 5px;
     }
     .logo{
-      height: 5.5vh;
+      height: 5.8vh;
       padding: 3px;
     }
     #hero .info h1 { 
@@ -508,7 +510,7 @@ footer{
         position: static;
         width: 100%;
         padding: 1rem;
-        background-color: var(--secondary-color);
+        color: var(--quaternary-color)
     }
 
 
@@ -551,6 +553,9 @@ footer{
     .menu { 
         display: block; 
     }
+    .menu {
+        margin-right: 30px;
+    }
     .wrapper .text {
         font-size: 16px;
         top: 5%;
@@ -577,6 +582,9 @@ footer{
 
     #cards > div { 
         width: 95%; 
+    }
+    #cards  img {
+        margin: 5px;
     }
 
     footer .contact p { 
