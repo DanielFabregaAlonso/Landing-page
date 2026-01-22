@@ -4,7 +4,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif, 'ABeeZee';
-    border: 2px solid red;
 }
 :root {
     --primary-color: #EEEEEE;
@@ -346,7 +345,7 @@ footer{
 .footer-list{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: rgb(10, 1, 1);
     padding: 20px;
@@ -556,10 +555,6 @@ footer{
     .menu {
         margin-right: 30px;
     }
-    .wrapper .text {
-        font-size: 16px;
-        top: 5%;
-    }
 
     #eslogan h1 { 
         font-size: 32px; 
@@ -568,9 +563,10 @@ footer{
         font-size: 14px; 
     }
     #hero .info {
-        width: 40%;
-        left: 13%;
-        bottom: 16%;
+        position: static;
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 0.9rem;
     }
     #hero .info > p { 
         font-size: 0.7rem;
@@ -586,33 +582,72 @@ footer{
     #cards  img {
         margin: 5px;
     }
+    .wrapper .text {
+        left: 1rem;
+        right: 1rem;
+        font-size: 14px;
+    }
 
     footer .contact p { 
         width: 90%; 
         font-size: 12px; 
     }
-  }
-    @media (max-width: 400px) {
-    #hero .info {
-        width: 40%;
-        left: 16%;
-        bottom: 21%;
+    .footer-input > .checkbox {
+        grid-template-columns: auto 1fr;
+        column-gap: 0.5rem;
+        padding: 0 1.5rem;
+        justify-content: start;
     }
-    #hero .info > p { 
-        font-size: 0.5rem;
+
+    .footer-input > .checkbox label {
+        text-align: left;
+        padding-right: 1rem;
+    }
+    .footer-list .list {
+        width: auto;
+        max-width: 1100px;
+        padding: 0 1.5rem;
+        justify-content: space-between;
+        gap: 2rem;
     }
     
-    footer{
-        align-items: center;
+}
+    @media (max-width: 400px) {
+
+    html, body {
+        display: block;
+        overflow-x: hidden;
+    }
+    main {
+        width: 100%;
+    }
+    #cards {
+        margin-left: 0;
+        grid-template-columns: 1fr;
+        padding: 10px;
     }
 
-    footer .contact p { 
-        width: 90%; 
-        font-size: 12px; 
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4 {
+        width: 100%;
     }
-    footer .list {
-        align-items: center;
+    #hero2 .info {
+        position: static;
+        width: 100%;
+        font-size: 1rem;
+    }
+    #wheel {
+        grid-template-columns: 1fr;
+    }
+    .footer-input > .checkbox > img {
         justify-content: center;
-        gap: 5px;
     }
+    .footer-list .list {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.5rem;
+  }
+
 }
