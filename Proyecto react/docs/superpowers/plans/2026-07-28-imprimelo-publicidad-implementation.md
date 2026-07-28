@@ -169,7 +169,6 @@ Expected: PASS
 - [ ] **Step 12: Commit**
 
 ```bash
-git add package.json package-lock.json vite.config.js index.html src/setupTests.js src/theme src/App.css -- ':!src/App.css'
 git add -A
 git commit -m "Scaffold Vite React project with Vitest and brand theme"
 ```
