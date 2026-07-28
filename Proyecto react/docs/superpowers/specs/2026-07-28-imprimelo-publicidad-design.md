@@ -25,7 +25,7 @@ De Instagram (@imprimeloalbox):
 - **Categorías destacadas (highlights)**: DTF, Serigrafía, Bordados, Rotulación, Cartelería.
 - **Teléfono / WhatsApp real**: +34 661 22 69 12 (visible en varias publicaciones promocionales).
 - **Ubicación**: Albox, Almería, España ("Empresa de publicidad en Albox").
-- **12 imágenes de publicaciones + 1 foto real del local/fachada** descargadas a `ig_images/` (post01–post12 + profile). La mayoría son plantillas promocionales de campaña de Navidad con marca de agua de "INVERSA publicidad" (proveedor de plantillas) en la esquina — se usan igualmente, etiquetadas como "campañas destacadas", ya que es un proyecto de práctica sin publicación real. `post01.jpg` es la foto real de la fachada del local, sin marca de agua.
+- **12 imágenes descargadas a `ig_images/`** (`post01.jpg`–`post12.jpg`, más `profile.jpg` que es el logo). `post01.jpg` es la foto real de la fachada del local (sin marca de agua). Las otras 11 son plantillas promocionales de campaña de Navidad con marca de agua de "INVERSA publicidad" (proveedor de plantillas) en la esquina — se usan igualmente, etiquetadas como "campañas destacadas", ya que es un proyecto de práctica sin publicación real.
 
 Datos no disponibles (dirección exacta, horario exacto): se usan como marcador editable, sin inventar una dirección de calle ficticia — se indica la localidad real (Albox) y un horario comercial habitual de ejemplo, dejando claro en el propio contenido que son orientativos.
 
@@ -78,7 +78,7 @@ Proyecto react/
 │   │   └── NotFound.jsx
 │   └── assets/
 │       ├── logo.jpg
-│       └── gallery/ (13 imágenes)
+│       └── gallery/ (12 imágenes)
 ```
 
 ## Datos y API propia
@@ -86,7 +86,7 @@ Proyecto react/
 `db.json` con dos colecciones servidas por json-server en `http://localhost:4000`:
 
 - **`services`**: `{ id, title, category, description, icon }`. Categorías: Serigrafía, Rotulación, DTF, Bordados, Sublimación, Cartelería, Merchandising, Calendarios/Papelería, Placas y Trofeos.
-- **`gallery`**: `{ id, src, alt, category }`. Las 13 imágenes reales, categorizadas según el trabajo mostrado (bordados, rotulación/vinilo, sublimación, estampados/DTF, merchandising, placas, cartelería, calendarios, local).
+- **`gallery`**: `{ id, src, alt, category }`. Las 12 imágenes reales, categorizadas según el trabajo mostrado (bordados, rotulación/vinilo, sublimación, estampados/DTF, merchandising, placas, cartelería, calendarios, local).
 
 `useFetch(url)` es el custom hook que centraliza el `useEffect` de fetching (con `AbortController` para cancelar peticiones al desmontar) y se reutiliza en `Services.jsx` y `Gallery.jsx`.
 
@@ -96,7 +96,7 @@ Proyecto react/
 |---|---|---|
 | `/` | Home | Hero con logo/tagline reales, CTA a Contacto/WhatsApp, foto real del local, preview de servicios y galería |
 | `/servicios` | Services | Catálogo completo desde la API propia, filtrable por categoría |
-| `/galeria` | Gallery | Grid de las 13 imágenes reales, filtro por categoría + lightbox |
+| `/galeria` | Gallery | Grid de las 12 imágenes reales, filtro por categoría + lightbox |
 | `/contacto` | Contact | Datos reales de contacto (teléfono, WhatsApp, Instagram, Albox) + formulario |
 | `*` | NotFound | Página 404 simple |
 
