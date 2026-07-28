@@ -1,0 +1,141 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Serigrafía textil",
+      "category": "Serigrafía",
+      "description": "Impresión textil de alta calidad para grandes tiradas: camisetas, sudaderas, uniformes y textil publicitario.",
+      "icon": "🖨️"
+    },
+    {
+      "id": 2,
+      "title": "Rotulación y vinilo",
+      "category": "Rotulación",
+      "description": "Rótulos, vinilos decorativos y señalética para escaparates, vehículos y fachadas.",
+      "icon": "🪧"
+    },
+    {
+      "id": 3,
+      "title": "Estampación DTF",
+      "category": "DTF",
+      "description": "Estampación DTF para prendas personalizadas, ideal para tiradas cortas y diseños a todo color.",
+      "icon": "👕"
+    },
+    {
+      "id": 4,
+      "title": "Bordado industrial",
+      "category": "Bordados",
+      "description": "Bordado industrial en polos, sudaderas y uniformes con logotipos e iniciales.",
+      "icon": "🧵"
+    },
+    {
+      "id": 5,
+      "title": "Sublimación",
+      "category": "Sublimación",
+      "description": "Tazas, botellas, textil y regalos personalizados a todo color mediante sublimación.",
+      "icon": "☕"
+    },
+    {
+      "id": 6,
+      "title": "Cartelería y diseño",
+      "category": "Cartelería",
+      "description": "Diseño e impresión de carteles, programas de fiestas y material publicitario para eventos.",
+      "icon": "📰"
+    },
+    {
+      "id": 7,
+      "title": "Merchandising corporativo",
+      "category": "Merchandising",
+      "description": "Artículos publicitarios personalizados: bolígrafos, libretas, kits corporativos y regalos de empresa.",
+      "icon": "🎁"
+    },
+    {
+      "id": 8,
+      "title": "Papelería personalizada",
+      "category": "Papelería",
+      "description": "Calendarios, agendas y papelería personalizada para particulares y empresas.",
+      "icon": "📅"
+    },
+    {
+      "id": 9,
+      "title": "Trofeos y placas",
+      "category": "Trofeos y Placas",
+      "description": "Placas de reconocimiento y trofeos personalizados en cristal y metacrilato.",
+      "icon": "🏆"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "src": "/images/gallery/post01.jpg",
+      "alt": "Fachada y rótulo del local de Imprimelo Publicidad en Albox",
+      "category": "Rotulación"
+    },
+    {
+      "id": 2,
+      "src": "/images/gallery/post02.jpg",
+      "alt": "Bordados navideños personalizados en sudaderas",
+      "category": "Bordados"
+    },
+    {
+      "id": 3,
+      "src": "/images/gallery/post03.jpg",
+      "alt": "Kit de oficina navideño personalizado",
+      "category": "Merchandising"
+    },
+    {
+      "id": 4,
+      "src": "/images/gallery/post04.jpg",
+      "alt": "Vinilos navideños personalizados en escaparate",
+      "category": "Rotulación"
+    },
+    {
+      "id": 5,
+      "src": "/images/gallery/post05.jpg",
+      "alt": "Tazas y termos personalizados por sublimación",
+      "category": "Sublimación"
+    },
+    {
+      "id": 6,
+      "src": "/images/gallery/post06.jpg",
+      "alt": "Camisetas familiares estampadas con nombres personalizados",
+      "category": "DTF"
+    },
+    {
+      "id": 7,
+      "src": "/images/gallery/post07.jpg",
+      "alt": "Pieza gráfica de campaña de Navidad",
+      "category": "Cartelería"
+    },
+    {
+      "id": 8,
+      "src": "/images/gallery/post08.jpg",
+      "alt": "Merchandising institucional personalizado",
+      "category": "Merchandising"
+    },
+    {
+      "id": 9,
+      "src": "/images/gallery/post09.jpg",
+      "alt": "Placas de reconocimiento en cristal",
+      "category": "Trofeos y Placas"
+    },
+    {
+      "id": 10,
+      "src": "/images/gallery/post10.jpg",
+      "alt": "Cartel de la Feria de Albox",
+      "category": "Cartelería"
+    },
+    {
+      "id": 11,
+      "src": "/images/gallery/post11.jpg",
+      "alt": "Calendarios imantados personalizados",
+      "category": "Papelería"
+    },
+    {
+      "id": 12,
+      "src": "/images/gallery/post12.jpg",
+      "alt": "Polo bordado para Clínica Fisioalbox",
+      "category": "Bordados"
+    }
+  ]
+}
