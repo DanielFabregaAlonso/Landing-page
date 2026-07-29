@@ -18,7 +18,7 @@ export function ServiceCardBase({ service }) {
       <Heading as="h3" size="md" mb={2}>
         {service.title}
       </Heading>
-      <Tag colorScheme="green" mb={3}>
+      <Tag colorScheme="brand" mb={3}>
         {service.category}
       </Tag>
       <Text fontSize="sm" color="gray.600">

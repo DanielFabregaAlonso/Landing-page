@@ -12,7 +12,7 @@ export function CategoryFilterBase({ categories, activeCategory, onSelect }) {
           <Button
             size="sm"
             variant={activeCategory === category ? "solid" : "outline"}
-            colorScheme="green"
+            colorScheme="brand"
             aria-pressed={activeCategory === category}
             onClick={() => onSelect(category)}
           >

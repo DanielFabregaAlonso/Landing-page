@@ -4,7 +4,7 @@ Web de práctica en React para Imprimelo Publicidad (serigrafía, rotulación, D
 
 ## Requisitos
 
-- Node.js 18+
+- Node.js 20.19+ (o 22.12+)
 
 ## Instalación
 

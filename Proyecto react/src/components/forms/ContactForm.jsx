@@ -89,7 +89,7 @@ export function ContactForm({ onSubmitSuccess, simulatedDelayMs = 800 }) {
         <FormErrorMessage>{errors.message?.message}</FormErrorMessage>
       </FormControl>
 
-      <Button type="submit" colorScheme="green" isLoading={status === "sending"}>
+      <Button type="submit" colorScheme="brand" isLoading={status === "sending"}>
         Enviar mensaje
       </Button>
 

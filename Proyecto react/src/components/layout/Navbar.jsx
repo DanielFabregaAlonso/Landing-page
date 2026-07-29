@@ -39,7 +39,7 @@ export function Navbar() {
           </Text>
         </Link>
 
-        <HStack as="nav" spacing={6} display={{ base: "none", md: "flex" }}>
+        <HStack as="nav" aria-label="Principal" spacing={6} display={{ base: "none", md: "flex" }}>
           {LINKS.map((link) => (
             <Link
               key={link.to}
@@ -63,7 +63,7 @@ export function Navbar() {
       </Flex>
 
       {isOpen && (
-        <Stack as="nav" px={4} pb={4} spacing={3} display={{ md: "none" }}>
+        <Stack as="nav" aria-label="Menú móvil" px={4} pb={4} spacing={3} display={{ base: "flex", md: "none" }}>
           {LINKS.map((link) => (
             <Link key={link.to} as={NavLink} to={link.to} onClick={onToggle}>
               {link.label}

@@ -8,7 +8,7 @@ export default function NotFound() {
         404
       </Heading>
       <Text mb={6}>La página que buscas no existe.</Text>
-      <Button as={RouterLink} to="/" colorScheme="green">
+      <Button as={RouterLink} to="/" colorScheme="brand">
         Volver al inicio
       </Button>
     </Container>

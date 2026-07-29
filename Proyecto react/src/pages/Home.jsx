@@ -35,7 +35,7 @@ export default function Home() {
             </Text>
             <Text color="gray.400">{company.description}</Text>
             <HStack spacing={4} pt={2}>
-              <Button as={RouterLink} to="/contacto" colorScheme="green">
+              <Button as={RouterLink} to="/contacto" colorScheme="brand">
                 Pide presupuesto
               </Button>
               <Button
@@ -61,7 +61,7 @@ export default function Home() {
           ))}
         </SimpleGrid>
         <Box textAlign="center">
-          <Button as={RouterLink} to="/servicios" variant="link" colorScheme="green">
+          <Button as={RouterLink} to="/servicios" variant="link" colorScheme="brand">
             Ver todos los servicios →
           </Button>
         </Box>
