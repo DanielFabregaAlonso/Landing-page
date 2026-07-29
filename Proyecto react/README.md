@@ -25,7 +25,3 @@ Esto levanta a la vez el frontend (Vite, http://localhost:5173) y la API propia 
 ```bash
 npm run build
 ```
-
-## Estructura
-
-Ver `docs/superpowers/specs/2026-07-28-imprimelo-publicidad-design.md` para el diseño completo (arquitectura, datos, decisiones de contenido real tomado de Instagram).
