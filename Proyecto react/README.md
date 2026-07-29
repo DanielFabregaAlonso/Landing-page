@@ -20,12 +20,6 @@ npm run dev
 
 Esto levanta a la vez el frontend (Vite, http://localhost:5173) y la API propia (json-server sobre `db.json`, http://localhost:4000). Si prefieres arrancarlos por separado: `npx vite` en una terminal y `npm run api` en otra.
 
-## Tests
-
-```bash
-npm test
-```
-
 ## Build de producción
 
 ```bash
