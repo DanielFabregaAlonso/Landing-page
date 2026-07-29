@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently -k -n vite,api -c blue,green \"vite\" \"json-server --watch db.json --port 4000\"",
+    "api": "json-server --watch db.json --port 4000",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",

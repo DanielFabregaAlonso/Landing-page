@@ -1,16 +1,37 @@
-# React + Vite
+# Imprimelo Publicidad
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Web de práctica en React para Imprimelo Publicidad (serigrafía, rotulación, DTF, bordados y merchandising en Albox, Almería).
 
-Currently, two official plugins are available:
+## Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js 18+
 
-## React Compiler
+## Instalación
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+```
 
-## Expanding the Oxlint configuration
+## Desarrollo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm run dev
+```
+
+Esto levanta a la vez el frontend (Vite, http://localhost:5173) y la API propia (json-server sobre `db.json`, http://localhost:4000). Si prefieres arrancarlos por separado: `npx vite` en una terminal y `npm run api` en otra.
+
+## Tests
+
+```bash
+npm test
+```
+
+## Build de producción
+
+```bash
+npm run build
+```
+
+## Estructura
+
+Ver `docs/superpowers/specs/2026-07-28-imprimelo-publicidad-design.md` para el diseño completo (arquitectura, datos, decisiones de contenido real tomado de Instagram).
